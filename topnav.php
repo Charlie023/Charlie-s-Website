@@ -1,0 +1,49 @@
+<!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="css/website_design.css">
+
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark " id="infoNav" name="infoNav">
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">        
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link" ><i class="fa fa-envelope-o"></i> charlie.matanguihan23@gmail.com</a>  
+                 </li>   
+                 <li class="nav-item active">
+                    <a class="nav-link" >|</a>  
+                 </li>                      
+                <li class="nav-item active">
+                    <a class="nav-link" ><i class="fa fa-phone"></i> 0977 260 3823</a>
+                </li>               
+            </ul>  
+    </div>
+</nav>
+ <nav class="navbar navbar-expand-lg navbar-dark" id="nav" name="nav" style="background-color:#6FB0AE" >
+        <a class="navbar-brand " href="#" id="web_name"><span style="font-size: 30px;font-family: Tahoma;"><</span> Charlie Matanguihan <span style="font-size: 30px;font-family: Tahoma;">></span> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+           
+            <ul class="navbar-nav ml-auto">
+            	<li class="nav-item active">
+                    <a class="nav-link  js-scroll-trigger" href="#masthead"><i class="fa fa-home"></i> Home</a>                 
+                <li class="nav-item">
+                    <a class="nav-link  js-scroll-trigger" href="#services">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  js-scroll-trigger" href="#about"> About Me</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link  js-scroll-trigger" href="#"> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
