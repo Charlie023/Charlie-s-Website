@@ -25,24 +25,23 @@
     </div>
 </nav>
  <nav class="navbar navbar-expand-lg navbar-dark" id="nav" name="nav" style="background-color:#6FB0AE" >
-        <a class="navbar-brand " href="#" id="web_name"><span style="font-size: 30px;font-family: Tahoma;"><</span> Charlie Matanguihan <span style="font-size: 30px;font-family: Tahoma;">></span> </a>
+        <a class="navbar-brand " href="index.php" id="web_name">Charlie Matanguihan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div id="navbarNavDropdown" class="navbar-collapse collapse">
-           
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">           
             <ul class="navbar-nav ml-auto">
             	<li class="nav-item active">
-                    <a class="nav-link  js-scroll-trigger" href="#masthead"><i class="fa fa-home"></i> Home</a>                 
+                    <a class="nav-link" href="index.php"> Home</a>                 
                 <li class="nav-item">
-                    <a class="nav-link  js-scroll-trigger" href="#services">Portfolio</a>
+                    <a class="nav-link" href="#services">Webdev Knowledge</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  js-scroll-trigger" href="#about"> About Me</a>
+                    <a class="nav-link" href="#about"> About </a>
                 </li>
                   <li class="nav-item">
-                    <a class="nav-link  js-scroll-trigger" href="#"> Contact</a>
+                    <a class="nav-link" href="#section4"> Contact</a>
                 </li>
             </ul>
         </div>
