@@ -151,7 +151,7 @@
               <div class="row" style="margin-bottom: 10px;" >
                   <div data-aos="fade-right"class="col-md-6 text-left rounded" style="padding:30px;" >
                       <h3  style="color: white">Me and this Website</h3>
-                      <p style="color: white">Hi! I'am Charlie Matanguihan, a 4th year student currently studying Bachelor of Science in Information Technology at Polytechnic University of the Philippines located at Sto.Tomas, Batangas </p>
+                      <p style="color: white">Hi! I'am Charlie Matanguihan, a 4th year student currently studying Bachelor of Science in Information Technology at Polytechnic University of the Philippines located at Sto.Tomas, Batangas. I made this simple website to be one of my portfolio that I can show to the employers when I apply for their companies after I graduate. </p>
                   </div>
                       <div data-aos="zoom-in"  class="col-md-6">
                             <div id="carouselController" class="carousel slide" data-ride="carousel">
@@ -229,7 +229,7 @@
                       </div>
                       <div data-aos="fade-left" class="col-md-6 text-left rounded" style="padding: 30px;"  >
                       <h3  style="color: white;">Peek-a-Book</h3>
-                      <p style="color: white">Peek-a-Book, an E-Commerce Website made for the students who finds themselves difficulty in finding the books that they wanted.   </p>
+                      <p style="color: white">Peek-a-Book, an E-Commerce Website made for our Capstone Project and it can also be a big help the those people who finds themselves difficulty in finding the books that they wanted.   </p>
                       <a class="btn btn-info float-right" href="https://peek-abook.com/"  target="_blank">Visit Peek-a-Book Website</a>
 
                   </div>
