@@ -1,12 +1,33 @@
- 
-  
-
-    // tell me more button
+//submit in the comments section
    $(document).ready(function(){
-          $("#tell").click(function(){
-              alert("qweqweqwe");
+          $("#buttony").click(function(){
+              // alert("asdasd");
+              var name = $("#name").val();
+              var email = $("#email").val();
+              var comments = $("#comments").val();
+              // alert(name+email+comments);
+
+              if (email === "" || comments ==="") {
+                alert("Email and Comments required!");
+              }
+              else{
+
+                    $.ajax({
+                        url:"sendToEmail.php",
+                        method:"POST",
+                        data:{name:name,email:email,comments:comments},
+                        success:function(){
+                            $("#name").val("");
+                            $("#email").val("");
+                            $("#comments").val("");
+                        }
+
+                    });
+              }
+             
           });
       });
+
 
 
     //scroll back to top function
