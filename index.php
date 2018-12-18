@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Charlie </title>
+  <title>Charlie </title>
 
   <link rel="icon" href="images/logo.png">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 
-	<link rel="stylesheet" type="text/css" href="assets/css/website_design.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/website_design.css">
    
     <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
 
-	
+  
 
 
 </head>
 <body >
 
-	<?php
-		include "html/topnav.php";
+  <?php
+    include "html/topnav.php";
 
-	?>	 
- 			<!-- Header  -->
-	<header class="masthead" style="text-align: center;
-		  color: white;
-		  background-image: url('images/back(copy).jpg');
-		  background-repeat: no-repeat;
-		  background-attachment: fixed;
-		  background-position: center center;
-		  background-size: cover;
-		  height: 800px;" id="masthead">
-		      <div class="container text-center">
-		        <div class="intro-text">
-		          <div class="intro-lead-in ml2">Welcome to my Website!</div>              
-              	<div class="intro-heading text-uppercase ml2">
+  ?>   
+      <!-- Header  -->
+  <header class="masthead" style="text-align: center;
+      color: white;
+      background-image: url('images/back(copy).jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: cover;
+      height: 800px;" id="masthead">
+          <div class="container text-center">
+            <div class="intro-text">
+              <div class="intro-lead-in ml2">Welcome to my Website!</div>              
+                <div class="intro-heading text-uppercase ml2">
                 It's Nice To Meet You</div>
-		          <a href="#about" class="btn text-uppercase " id="tell" name="tell" style="background:#76B3AC;color: white">Know More About Me</a>
-		        </div>
-		      </div>
+              <a href="#about" class="btn text-uppercase " id="tell" name="tell" style="background:#76B3AC;color: white">Know More About Me</a>
+            </div>
+          </div>
     </header>
 
 
@@ -154,7 +154,39 @@
                       <p style="color: white">Hi! I'am Charlie Matanguihan, a 4th year student currently studying Bachelor of Science in Information Technology at Polytechnic University of the Philippines located at Sto.Tomas, Batangas </p>
                   </div>
                       <div data-aos="zoom-in"  class="col-md-6">
-                            <img class="d-block w-100 rounded" src="images/back.png" style="width: 100%; height:400px;">
+                            <div id="carouselController" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img class="d-block w-100 rounded" src="images/rafflefront.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100 rounded" src="images/adduser.png" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100 rounded" src="images/winnerslog.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100 rounded" src="images/prize.png" alt="Third slide">
+                                </div>                            
+                                <div class="carousel-item">
+                                  <img class="d-block w-100 rounded" src="images/printuserlist.png" alt="Third slide">
+                                </div>
+                                 <div class="carousel-item">
+                                  <img class="d-block w-100 rounded" src="images/printwinners.png" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100 rounded" src="images/printitem.png" alt="Third slide">
+                                </div>                                                              
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselController" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselController" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
                       </div>
               </div>
 
@@ -249,6 +281,7 @@
       </div>
     </section> 
 
+<div id="result" hidden></div>
     <!-- contact section -->
     <section style=" margin-top: 20px; 
     background: linear-gradient(to top, #0054ff 0%, #33ccff 100%);">
@@ -297,8 +330,8 @@
         <button class="cd-top js-cd-top btn rounded " ><i class="fa fa-angle-double-up icon-4x" ></i></button>
 
       <?php
-		include "html/footer.php";
-	?>
+    include "html/footer.php";
+  ?>
 
 <script type="text/javascript" src="assets/js/main.js"></script>
 

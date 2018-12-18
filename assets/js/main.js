@@ -17,6 +17,7 @@
                         method:"POST",
                         data:{name:name,email:email,comments:comments},
                         success:function(){
+                          
                             $("#name").val("");
                             $("#email").val("");
                             $("#comments").val("");
