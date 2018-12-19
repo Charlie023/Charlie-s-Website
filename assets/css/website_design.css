@@ -166,14 +166,14 @@ header.masthead .intro-text .intro-heading {
 .footer-copyright a { color: #fff; border: 0; }
 .footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
 
-.footer-social #facebook:hover {
- color: #0054ff; border: 0; }
+ #facebook:hover {
+ color: #3B5998; }
 
- .footer-social #twitter:hover{
- color:   #43bcff; border: 0; }
+  #twitter:hover{
+ color:   #43bcff;  }
 
-  .footer-social #google:hover{
- color:  red; border: 0; }
+   #google:hover{
+ color:  #D54C40; }
 
 #qwe:hover{
   background:#2222;
@@ -213,3 +213,17 @@ header.masthead .intro-text .intro-heading {
 #buttony:hover{
   background:#33ccff;
 }
+
+
+
+.outer{background:#373737;  padding:12px}
+.wrap{margin:0 auto; }
+.sub{
+    padding:12px;
+    width:20%;
+    height:150px;
+    background:#373737;
+    display:table-cell;
+     border-right:solid white 3px;  
+}
+.sub:last-child{border:0px; margin-left: 20px;}

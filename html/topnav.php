@@ -9,7 +9,7 @@
 
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark " id="infoNav" name="infoNav">
+<!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark " id="infoNav" name="infoNav">
     <div id="navbarNavDropdown" class="navbar-collapse collapse">        
             <ul class="navbar-nav ml-auto ">
                 <li class="nav-item active">
@@ -19,7 +19,7 @@
                              
             </ul>  
     </div>
-</nav>
+</nav> -->
  <nav class="navbar navbar-expand-lg navbar-dark" id="nav" name="nav" style="background-color:#6FB0AE" >
         <img src="images/logo2.png" style="width: 40px;height: 40px">
         <a class="navbar-brand " href="index.php" id="web_name">Charlie Matanguihan</a>
